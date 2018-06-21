@@ -1,0 +1,42 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: $montserrat;
+    font-size: 16px;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #4A4A4A;
+    font-family: $montserrat;
+    font-size: 12px;
+    font-weight: 300;
+    opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #4A4A4A;
+    font-family: $montserrat;
+    font-weight: 300;
+    font-size: 12px;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+    color: #4A4A4A;
+    font-family: $montserrat;
+    font-weight: 300;
+    font-size: 12px;
+}
